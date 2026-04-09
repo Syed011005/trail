@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Small Appliances | K2 Electro World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+  <img src="https://uploads.onecompiler.io/43uf5htbq/44bddnasw/logo.png"
+       alt="K2 Electro World logo"
+       class="brand-logo">
+  <span>K2 ELECTRO WORLD</span>
+</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Small Appliances</h2>
+
+    <div class="products-grid">
+<!-- Geyser -->
+<article class="product-card" data-id="p35">
+  <img src="gy1.jpg" alt="Geyser">
+  <div class="product-body">
+    <h3>Geyser</h3>
+    <p class="muted">10–25 L • Instant / Storage • Energy Efficient</p>
+    <button class="btn view-btn" data-id="p35">View Details</button>
+  </div>
+</article>
+
+<article class="product-card" data-id="p42">
+  <img src="instant1.png">
+  <div class="product-body">
+    <h3>Instant Geyser</h3>
+    <p class="muted">1–3 L • Fast Heating • Compact</p>
+    <button class="btn view-btn" data-id="p42">View Details</button>
+  </div>
+</article>
+
+<!-- Room Heater -->
+<article class="product-card" data-id="p36">
+  <img src="heater.png" alt="Room Heater">
+  <div class="product-body">
+    <h3>Room Heater</h3>
+    <p class="muted">1000–2000 W • Fan / Oil Filled • Fast Heating</p>
+    <button class="btn view-btn" data-id="p36">View Details</button>
+  </div>
+</article>
+<article class="product-card" data-id="p37">
+  <img src="iron1.jpg" alt="Iron Box">
+  <div class="product-body">
+    <h3>Iron Box</h3>
+    <p class="muted">Dry / Steam • Non-Stick Soleplate • Fast Heating</p>
+    <button class="btn view-btn" data-id="p37">View Details</button>
+  </div>
+</article>
+
+<article class="product-card" data-id="p43">
+  <img src="dry1.png">
+  <div class="product-body">
+    <h3>Dry Iron</h3>
+    <p class="muted">750–1000 W • Non-Stick Soleplate</p>
+    <button class="btn view-btn" data-id="p43">View Details</button>
+  </div>
+</article>
+<!-- Table Fan -->
+<article class="product-card" data-id="p38">
+  <img src="tf1.png">
+  <div class="product-body">
+    <h3>Table Fan</h3>
+    <p class="muted">High Speed • Compact • Low Power</p>
+    <button class="btn view-btn" data-id="p38">View Details</button>
+  </div>
+</article>
+
+<!-- Pedestal Fan -->
+<article class="product-card" data-id="p39">
+  <img src="pf1.png">
+  <div class="product-body">
+    <h3>Pedestal Fan</h3>
+    <p class="muted">Height Adjustable • Wide Air Throw</p>
+    <button class="btn view-btn" data-id="p39">View Details</button>
+  </div>
+</article>
+
+<!-- Wall Fan -->
+<article class="product-card" data-id="p40">
+  <img src="wf1.png">
+  <div class="product-body">
+    <h3>Wall Fan</h3>
+    <p class="muted">Oscillation • Space Saving</p>
+    <button class="btn view-btn" data-id="p40">View Details</button>
+  </div>
+</article>
+
+<!-- Ceiling Fan -->
+<article class="product-card" data-id="p41">
+  <img src="cf1.png">
+  <div class="product-body">
+    <h3>Ceiling Fan</h3>
+    <p class="muted">BLDC / Standard • Energy Efficient</p>
+    <button class="btn view-btn" data-id="p41">View Details</button>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="product-modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close>✕</button>
+    <div class="modal-content">
+      <img id="modal-image">
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p id="modal-specs" class="muted"></p>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

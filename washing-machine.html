@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Washing Machines | K2 Electro World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <img src="https://uploads.onecompiler.io/43uf5htbq/44bddnasw/logo.png"
+           alt="K2 Electro World logo"
+           class="brand-logo">
+      <span>K2 ELECTRO WORLD</span>
+    </a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Washing Machines</h2>
+
+    <div class="products-grid">
+
+      <!-- Washer -->
+      <article class="product-card" data-id="p18">
+        <img src="wash1.png" alt="Washer">
+        <div class="product-body">
+          <h3>Washer</h3>
+          <p class="muted">6–9 kg • Washer Only • Low Power Consumption</p>
+          <button class="btn view-btn" data-id="p18">View Details</button>
+        </div>
+      </article>
+
+      <!-- Semi Automatic -->
+      <article class="product-card" data-id="p19">
+        <img src="sm1.avif" alt="Semi Automatic Washing Machine">
+        <div class="product-body">
+          <h3>Semi Automatic</h3>
+          <p class="muted">6.5–12 kg • Twin Tub • Durable</p>
+          <button class="btn view-btn" data-id="p19">View Details</button>
+        </div>
+      </article>
+
+      <!-- Top Load -->
+      <article class="product-card" data-id="p20">
+        <img src="tl1.avif" alt="Top Load Washing Machine">
+        <div class="product-body">
+          <h3>Top Load</h3>
+          <p class="muted">7–10 kg • Fully Automatic • Smart Wash</p>
+          <button class="btn view-btn" data-id="p20">View Details</button>
+        </div>
+      </article>
+
+      <!-- Front Load -->
+      <article class="product-card" data-id="p21">
+        <img src="fl1.avif" alt="Front Load Washing Machine">
+        <div class="product-body">
+          <h3>Front Load</h3>
+          <p class="muted">7–12 kg • Inverter Motor • Premium Wash</p>
+          <button class="btn view-btn" data-id="p21">View Details</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Product Modal -->
+<div id="product-modal" class="modal" aria-hidden="true" role="dialog">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close>✕</button>
+    <div class="modal-content">
+      <img id="modal-image" alt="">
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p id="modal-specs" class="muted"></p>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

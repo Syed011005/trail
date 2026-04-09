@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kitchen Appliances | K2 Electro World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+  <img src="https://uploads.onecompiler.io/43uf5htbq/44bddnasw/logo.png"
+       alt="K2 Electro World logo"
+       class="brand-logo">
+  <span>K2 ELECTRO WORLD</span>
+</a>
+  </div>
+</header>
+<section class="section">
+  <div class="container">
+    <h2>Kitchen Appliances</h2>
+
+    <div class="products-grid">
+
+      <article class="product-card" data-id="p22">
+  <img src="cook.png" alt="Gas Stove">
+  <div class="product-body">
+    <h3>Gas Stove</h3>
+    <p class="muted">2–4 Burners • Auto Ignition • Toughened Glass</p>
+    <button class="btn view-btn" data-id="p22">View Details</button>
+  </div>
+</article>
+
+      <article class="product-card" data-id="p23">
+        <img src="mix.png">
+        <div class="product-body">
+          <h3>Mixer Grinder</h3>
+          <p class="muted">500–750 W • Multiple Jars</p>
+          <button class="btn view-btn" data-id="p23">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p34">
+  <img src="wet1.png" alt="Wet Grinder">
+  <div class="product-body">
+    <h3>Wet Grinder</h3>
+    <p class="muted">2–5 L • Stone Grinding • Heavy Duty Motor</p>
+    <button class="btn view-btn" data-id="p34">View Details</button>
+  </div>
+</article>
+
+      <article class="product-card" data-id="p24">
+        <img src="air.png">
+        <div class="product-body">
+          <h3>Air Fryer</h3>
+          <p class="muted">4 L • 1500 W</p>
+          <button class="btn view-btn" data-id="p24">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p25">
+  <img src="mic.png" alt="Convection Microwave Oven">
+  <div class="product-body">
+    <h3>Convection Microwave Oven</h3>
+    <p class="muted">900–1400 W • Bake • Grill • Roast • 20–32 L</p>
+    <button class="btn view-btn" data-id="p25">View Details</button>
+  </div>
+</article>
+      <article class="product-card" data-id="p28">
+    <img src="gril.png" alt="Grill Microwave Oven">
+    <div class="product-body">
+      <h3>Grill Microwave Oven</h3>
+      <p class="muted">800–1200 W • Grill + Microwave • Crispy Grilling</p>
+      <button class="btn view-btn" data-id="p28">View Details</button>
+    </div>
+  </article>
+
+  <!-- Solo Microwave Oven -->
+  <article class="product-card" data-id="p29">
+    <img src="solo.png" alt="Solo Microwave Oven">
+    <div class="product-body">
+      <h3>Solo Microwave Oven</h3>
+      <p class="muted">700–1000 W • Reheat & Defrost • Energy Efficient</p>
+      <button class="btn view-btn" data-id="p29">View Details</button>
+    </div>
+  </article>
+
+
+  <!-- Water Purifier -->
+  <article class="product-card" data-id="p30">
+    <img src="wp1.png" alt="Water Purifier">
+    <div class="product-body">
+      <h3>Water Purifier</h3>
+      <p class="muted">RO • UV • UF • 7–10 L Storage • TDS Control</p>
+      <button class="btn view-btn" data-id="p30">View Details</button>
+    </div>
+  </article>
+
+  <!-- Water Dispenser -->
+  <article class="product-card" data-id="p31">
+    <img src="wd1.png" alt="Water Dispenser">
+    <div class="product-body">
+      <h3>Water Dispenser</h3>
+      <p class="muted">Hot & Cold • Compressor Cooling • Bottle / Bottle-less</p>
+      <button class="btn view-btn" data-id="p31">View Details</button>
+    </div>
+  </article>
+
+
+
+      <!-- Rice Cooker -->
+<article class="product-card" data-id="p32">
+  <img src="cok.png" alt="Rice Cooker">
+  <div class="product-body">
+    <h3>Rice Cooker</h3>
+    <p class="muted">1–2 L • Auto Cook • Keep Warm</p>
+    <button class="btn view-btn" data-id="p32">View Details</button>
+  </div>
+</article>
+
+<!-- Electric Kettle -->
+<article class="product-card" data-id="p33">
+  <img src="elec1.jpg" alt="Electric Kettle">
+  <div class="product-body">
+    <h3>Electric Kettle</h3>
+    <p class="muted">1–1.7 L • 1500–2000 W • Fast Boil</p>
+    <button class="btn view-btn" data-id="p33">View Details</button>
+  </div>
+</article>
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="product-modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close>✕</button>
+    <div class="modal-content">
+      <img id="modal-image">
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p id="modal-specs" class="muted"></p>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

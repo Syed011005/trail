@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Televisions | K2 Electro World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <img src="https://uploads.onecompiler.io/43uf5htbq/44bddnasw/logo.png"
+           alt="K2 Electro World logo"
+           class="brand-logo">
+      <span>K2 ELECTRO WORLD</span>
+    </a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Televisions</h2>
+
+    <div class="products-grid">
+
+      <article class="product-card" data-id="p1">
+        <img src="32inch.png" alt="32 inch Television">
+        <div class="product-body">
+          <h3>32 Inch Television</h3>
+          <p class="muted">HD Ready • Smart LED</p>
+          <button class="btn view-btn" data-id="p1">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p2">
+        <img src="43inch.png" alt="43 inch Television">
+        <div class="product-body">
+          <h3>43 Inch Television</h3>
+          <p class="muted">FHD • 4K • QLED • OLED</p>
+          <button class="btn view-btn" data-id="p2">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p3">
+        <img src="55inch.png" alt="55 inch Television">
+        <div class="product-body">
+          <h3>55 Inch Television</h3>
+          <p class="muted">4K • QLED • OLED</p>
+          <button class="btn view-btn" data-id="p3">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p4">
+        <img src="65inch.png" alt="65 inch Television">
+        <div class="product-body">
+          <h3>65 Inch Television</h3>
+          <p class="muted">4K • QLED • OLED • Mini-LED</p>
+          <button class="btn view-btn" data-id="p4">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p5">
+        <img src="85inch.png" alt="85 inch Television">
+        <div class="product-body">
+          <h3>85 Inch Television</h3>
+          <p class="muted">4K • QLED • OLED</p>
+          <button class="btn view-btn" data-id="p5">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p6">
+        <img src="100inch.png" alt="100 inch Television">
+        <div class="product-body">
+          <h3>100 Inch Television</h3>
+          <p class="muted">4K • QLED • OLED • Mini-LED</p>
+          <button class="btn view-btn" data-id="p6">View Details</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Product Modal -->
+<div id="product-modal" class="modal" aria-hidden="true" role="dialog">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close>✕</button>
+    <div class="modal-content">
+      <img id="modal-image" alt="">
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p id="modal-specs" class="muted"></p>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

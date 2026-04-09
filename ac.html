@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Air Conditioners | K2 Electro World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+  <img src="logo.jpg"
+       alt="K2 Electro World logo"
+       class="brand-logo">
+  <span>K2 ELECTRO WORLD</span>
+</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Air Conditioners</h2>
+
+    <div class="products-grid">
+
+      <article class="product-card" data-id="p15">
+        <img src="ac1.jpg">
+        <div class="product-body">
+          <h3>Split AC</h3>
+          <p class="muted">2.0 Ton • Inverter • Multi-stage filters</p>
+          <button class="btn view-btn" data-id="p15">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p16">
+        <img src="tower.png">
+        <div class="product-body">
+          <h3>Tower AC</h3>
+          <p class="muted">1.5 Ton • High BEE Rating</p>
+          <button class="btn view-btn" data-id="p16">View Details</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="p17">
+        <img src="cooler.png">
+        <div class="product-body">
+          <h3>Air Cooler</h3>
+          <p class="muted">3000–4000 m³/h • 30–55 L</p>
+          <button class="btn view-btn" data-id="p17">View Details</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="product-modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close>✕</button>
+    <div class="modal-content">
+      <img id="modal-image">
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p id="modal-specs" class="muted"></p>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
